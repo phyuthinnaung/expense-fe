@@ -17,6 +17,7 @@ import Link from "@material-ui/core/Link";
 import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import NotificationsIcon from "@material-ui/icons/Notifications";
+import SimpleCard from "pages/card.js";
 
 function MadeWithLove() {
   return (
@@ -192,10 +193,8 @@ export default function Dashboard() {
               </Paper>
             </Grid>
             {/* Recent Orders */}
-            <Grid item xs={12}>
-              <Paper className={classes.paper}>
-                <h1>Orders</h1>
-              </Paper>
+            <Grid item xs={5}>
+              <SimpleCard />
             </Grid>
           </Grid>
         </Container>

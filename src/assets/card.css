@@ -1,0 +1,9 @@
+.card-content {
+  background: linear-gradient(
+    -45deg,
+    #ee7752,
+    rgba(255, 0, 0, 0),
+    #23a6d5,
+    #23d5ab
+  );
+}

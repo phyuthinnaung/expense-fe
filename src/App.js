@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Dashboard from "pages/dashboard";
+require("assets/index.css");
 
 class App extends Component {
   render() {
